@@ -1,13 +1,13 @@
-# PH415Assignment7
+# Interactive Many-Particles Collision Simulator
 The repo containing all the code for hosting of the project "The Bumpy Life of Particles"
 
 ## : this project is hosted at :
-https://nandwani-rohit.github.io/PH415Assignment7/
+https://nandwani-rohit.github.io/many-particles/
 
 ## REPORT :
-![](Report/180121035_HW7-1.svg)
-![](Report/180121035_HW7-2.svg)
-![](Report/180121035_HW7-3.svg)
-![](Report/180121035_HW7-4.svg)
-![](Report/180121035_HW7-5.svg)
-![](Report/180121035_HW7-6.svg)
+![](Report/report-1.svg)
+![](Report/report-2.svg)
+![](Report/report-3.svg)
+![](Report/report-4.svg)
+![](Report/report-5.svg)
+![](Report/report-6.svg)

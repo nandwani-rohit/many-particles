@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="">
+
+<!-- 1366 x 657 -->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>p.a.r.t.i.c.l.e.s</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+  <link rel="stylesheet" href="style2.css">
+  <script src="p5.min.js"></script>
+  <script src="p5.dom.min.js"></script>
+  <script src="sketch.js"></script>
+</head>
+  
+<body>
+
+  <div id="vl"></div>
+
+  <div id="head">The  BuMpY  Life  of  p.a.r.t.i.c.l.e.s.</div>
+
+  <div class="parameters">
+    <!-- <p id="head">The  BuMpY  Life  of  p.a.r.t.i.c.l.e.s.</p> -->
+    <span id="title">Choose the parameters for simulation</span>
+    <span id="title_colon"> :</span>
+    <br><br>
+
+    <label for="Ninput" id="Ntext">Number of pellets, N ( >= 1) :</label>
+    <input type="text" id="Ninput" value="50">
+    <br>
+
+    <label for="rinput" id="rtext">Relative radius of each pellet, r ( >= 0.1) :</label>
+    <input type="text" id="rinput" value="1">
+    <span class="type2"><br></span>
+    <span id="rinputsub">(r = 3.47 % of R)</span>
+    <br>
+
+    <label for="vinput" id="vtext">Initial Top Speed, u :</label>
+    <input type="text" id="vinput" value="1">
+    <span class="type2"><br></span>
+    <span id="vinputsub">(each particle gets a random initial speed between -u and u)</span>
+    <br>
+    
+    <label for="minput" id="mtext">Marked Particle (1-N) :</label>
+    <input type="text" id="minput" value="1">
+    <span class="type2"><br></span>
+    <span id="minputsub">(position and velocity will be shown real time)</span>
+    <br>
+
+    <br>
+    <span class="space"></span>
+    <span class="space"></span>
+    <button id="startbutton">✔️ START</button>
+    <span class="space"></span>
+    <button id="pausebutton">▶️⏸️ PAUSE</button>
+    <span class="space"></span>
+    <button id="endbutton">🔴 END</button>
+    <span class="type2"><br><br></span>
+
+    <span id="pdisplay"></span>
+    <br><br>
+    <span id="vdisplay"></span>
+    
+
+  </div>
+</body>
+
+</html>

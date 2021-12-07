@@ -1,0 +1,40 @@
+#t1
+{
+    color : white;
+    font: italic 1.5em "Fira Sans", sans-serif;
+    text-decoration-line: underline;
+}
+
+#t2, #t3, #t5, #t7
+{
+    color : rgb(255, 240, 152);
+    font : 1em "Fira Sans", sans-serif;
+}
+
+#t4, #t8
+{
+    color : white;
+    font : 1em "Fira Sans", sans-serif;
+}
+
+#t6
+{
+    color : white;
+    font : italic .9em "Fira Sans", sans-serif;
+}
+
+#display_p
+{
+    color : #53d0f0;
+    font : 2em "Fira Sans", sans-serif;
+    background-color: rgb(15, 12, 12);
+    padding:.1em;
+}
+
+#display_v
+{
+    color : #67f786;
+    font : 2em "Fira Sans", sans-serif;
+    background-color: rgb(15, 12, 12);
+    padding: .1em;
+}

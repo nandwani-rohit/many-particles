@@ -1,0 +1,104 @@
+body
+{
+    background-color: rgb(50,50,50);
+}
+
+#vl
+{
+    border-left: .2vw solid white;
+    position: absolute;
+    top : 1vh;
+    left: 60vw;
+    height: 98vh;
+}
+
+#head
+{
+    color : white;
+    font-family: 'Courier New', Courier, monospace;
+    /* font-weight: bolder; */
+    text-decoration: underline wavy rgb(209, 209, 4) .3vh;
+    text-underline-offset: .8vh;
+    font-size: 6vh;
+    position : absolute;
+    left : 63vw;
+    top : 0.5vh;
+}
+
+.parameters
+{
+    position : absolute;
+    top : 19vh;
+    left : 61vw;
+    font : 2.435vh "Fira Sans", sans-serif;
+    /* background-color: rgb(42, 6, 68); */
+    width: 39vw;
+    height: 75vh;
+}
+
+.type2
+{
+    line-height: 6vh;
+}
+
+.space
+{
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+
+#title
+{
+    color : white;
+    font: italic 3.653vh "Fira Sans", sans-serif;
+    text-decoration: underline solid lightskyblue .4vh;
+    text-underline-offset: .3vh;
+}
+
+#title_colon
+{
+    color : white;
+    font: italic 3.653vh "Fira Sans", sans-serif;
+}
+
+#Ntext, #rtext, #vtext, #mtext
+{
+    color : rgb(255, 240, 152);
+}
+
+#rinputsub, #minputsub, #vinputsub
+{
+    color : white;
+}
+
+#pdisplay
+{
+    display: inline-block;
+    color : #53d0f0;
+    font : 2vw "Fira Sans", sans-serif;
+    width: 36vw;
+    background-color: rgb(15, 12, 12);
+    padding:.444vh;
+}
+
+#vdisplay
+{
+    display: inline-block;
+    color : #67f786;
+    font : 2vw "Fira Sans", sans-serif;
+    width: 36vw;
+    background-color: rgb(15, 12, 12);
+    padding:.444vh;
+}
+
+#startbutton, #pausebutton, #endbutton
+{
+    font : 2.2vh "Fira Sans", sans-serif;
+    width: auto;
+}
+
+#Ninput, #minput, #rinput, #vinput
+{
+    font : 2.4vh "Fira Sans", sans-serif;
+    width: 2.2vw;
+}
